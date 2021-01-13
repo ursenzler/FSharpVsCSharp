@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="HappyPathCodingBasics.fs" />
+        <Compile Include="HappyPathCoding.fs" />
+        <Compile Include="Expressions.fs" />
+        <Compile Include="Records.fs" />
+        <Compile Include="Pipes.fs" />
+        <Compile Include="DiscriminatedUnions.fs" />
+        <Compile Include="SingleCaseDiscriminatedUnions.fs" />
+        <Compile Include="Equality.fs" />
+        <Compile Include="Program.fs" />
+        <Compile Include="Merging.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FsToolkit.ErrorHandling" Version="2.0.0" />
+    </ItemGroup>
+
+</Project>

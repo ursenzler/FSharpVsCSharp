@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpConsoleApp", "FSharpConsoleApp\FSharpConsoleApp.fsproj", "{ABE937E0-30FA-4699-82CF-8F3476B5A2D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpConsoleApp", "CSharpConsoleApp\CSharpConsoleApp.csproj", "{2713FD58-A70D-4160-BA4A-970B5C9EA5CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABE937E0-30FA-4699-82CF-8F3476B5A2D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE937E0-30FA-4699-82CF-8F3476B5A2D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE937E0-30FA-4699-82CF-8F3476B5A2D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE937E0-30FA-4699-82CF-8F3476B5A2D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2713FD58-A70D-4160-BA4A-970B5C9EA5CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2713FD58-A70D-4160-BA4A-970B5C9EA5CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2713FD58-A70D-4160-BA4A-970B5C9EA5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2713FD58-A70D-4160-BA4A-970B5C9EA5CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
