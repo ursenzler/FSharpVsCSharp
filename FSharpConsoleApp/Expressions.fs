@@ -5,3 +5,7 @@ let compute b =
         if b then 42
         else 17
     result
+
+
+let compute' () =
+    ()

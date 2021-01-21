@@ -33,12 +33,8 @@ let loadData dataId =
     }
 
 let getNameOfCustomer customer =
-    result {
-        let! name =
-            customer.Name
-            |> Result.requireSome
-                   "customer has no name"
-
+    option {
+        let! name = customer.Name
         return name
     }
 
@@ -47,14 +43,18 @@ let getCustomerNameAndAmount customerId dataId =
         let! customer = loadCustomer customerId
         let! data = loadData dataId
 
-        let! name = getNameOfCustomer customer
+        let! name =
+            customer
+            |> getNameOfCustomer
+            |> Result.requireSome
+                   "customer has no name"
 
         return name, data.Amount
     }
 
 let compute () =
     async {
-        let! result = getCustomerNameLength 42 17
+        let! result = getCustomerNameAndAmount 42 17
         match result with
         | Ok (name, amount) -> printf $"customer = {name}, amount = {amount}"
         | Error error -> printf $"error is {error}"

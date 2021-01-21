@@ -41,7 +41,7 @@ namespace CSharpConsoleApp
             var optional = Optional(id);
             if (optional == null)
             {
-                return (default, "no value");
+                return (null, "no value");
             }
 
             var result = Result(id);
