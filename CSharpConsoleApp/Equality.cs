@@ -1,28 +1,20 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-
-namespace CSharpConsoleApp
+﻿namespace CSharpConsoleApp
 {
     public class Equality
     {
-        public record Customer(int Id, string? Name);
+        public record Data(string Name, string[] Values);
 
         public bool Compute()
         {
-            var listOfEmployees1 = new List<Customer>
-            {
-                new Customer(1, "Charles"),
-                new Customer(2, null)
-            };
+            var a = new Data(
+                "Charles",
+                new[] {"1", "2"});
 
-            var listOfEmployees2 = new List<Customer>
-            {
-                new Customer(1, "Charles"),
-                new Customer(2, null)
-            };
+            var b = new Data(
+                "Charles",
+                new[] {"1", "2"});
 
-            //return listOfEmployees1 == listOfEmployees2;
-            return listOfEmployees1.SequenceEqual(listOfEmployees2);
+            return a == b;
         }
     }
 }

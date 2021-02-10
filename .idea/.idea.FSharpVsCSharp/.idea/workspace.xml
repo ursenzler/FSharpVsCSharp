@@ -7,9 +7,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f8158edc-a3e8-4610-87fc-2ccc19c2b21f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FSharpVsCSharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSharpVsCSharp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpConsoleApp/HappyPathCodingBasics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpConsoleApp/HappyPathCodingBasics.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FSharpConsoleApp/Expressions.fs" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpConsoleApp/Expressions.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpConsoleApp/Equality.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpConsoleApp/Equality.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpConsoleApp/SingleCaseDiscriminatedUnions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpConsoleApp/SingleCaseDiscriminatedUnions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSharpConsoleApp/Equality.fs" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpConsoleApp/Equality.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSharpConsoleApp/FSharpConsoleApp.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpConsoleApp/FSharpConsoleApp.fsproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpConsoleApp/HappyPathCoding.fs" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpConsoleApp/HappyPathCoding.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSharpConsoleApp/SingleCaseDiscriminatedUnions.fs" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpConsoleApp/SingleCaseDiscriminatedUnions.fs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,17 +27,13 @@
       <option value="$PROJECT_DIR$/CSharpConsoleApp/CSharpConsoleApp.csproj" />
       <option value="$PROJECT_DIR$/CSharpConsoleApp/Records.cs" />
       <option value="$PROJECT_DIR$/CSharpConsoleApp/DiscriminatedUnions.cs" />
-      <option value="$PROJECT_DIR$/FSharpConsoleApp/Equality.fs" />
       <option value="$PROJECT_DIR$/FSharpConsoleApp/Program.fs" />
-      <option value="$PROJECT_DIR$/FSharpConsoleApp/SingleCaseDiscriminatedUnions.fs" />
       <option value="$PROJECT_DIR$/CSharpConsoleApp/Program.cs" />
       <option value="$PROJECT_DIR$/FSharpConsoleApp/HappyPathCodingBasics.fs" />
       <option value="$PROJECT_DIR$/CSharpConsoleApp/Pipes.cs" />
       <option value="$PROJECT_DIR$/FSharpConsoleApp/Pipes.fs" />
       <option value="$PROJECT_DIR$/FSharpConsoleApp/DiscriminatedUnions.fs" />
-      <option value="$PROJECT_DIR$/CSharpConsoleApp/Equality.cs" />
       <option value="$PROJECT_DIR$/FSharpConsoleApp/Records.fs" />
-      <option value="$PROJECT_DIR$/CSharpConsoleApp/SingleCaseDiscriminatedUnions.cs" />
       <option value="$PROJECT_DIR$/CSharpConsoleApp/Expressions.cs" />
       <option value="$PROJECT_DIR$/CSharpConsoleApp/Merging.cs" />
       <option value="$PROJECT_DIR$/FSharpConsoleApp/Merging.fs" />
@@ -42,6 +41,10 @@
       <option value="$PROJECT_DIR$/FSharpConsoleApp/Expressions.fs" />
       <option value="$PROJECT_DIR$/CSharpConsoleApp/HappyPathCodingBasics.cs" />
       <option value="$PROJECT_DIR$/FSharpConsoleApp/HappyPathCoding.fs" />
+      <option value="$PROJECT_DIR$/CSharpConsoleApp/SingleCaseDiscriminatedUnions.cs" />
+      <option value="$PROJECT_DIR$/CSharpConsoleApp/Equality.cs" />
+      <option value="$PROJECT_DIR$/FSharpConsoleApp/SingleCaseDiscriminatedUnions.fs" />
+      <option value="$PROJECT_DIR$/FSharpConsoleApp/Equality.fs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mn01Ff0rFbiIIVOZ4qaC1cUmpt" />
@@ -68,7 +71,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.CSharpConsoleApp">
+  <component name="RunManager" selected=".NET Project.FSharpConsoleApp">
     <configuration name="CSharpConsoleApp" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -119,7 +122,9 @@
       <workItem from="1610348180777" duration="5279000" />
       <workItem from="1610462070041" duration="3862000" />
       <workItem from="1610526112245" duration="8853000" />
-      <workItem from="1611242315745" duration="794000" />
+      <workItem from="1611242315745" duration="1391000" />
+      <workItem from="1611842986092" duration="874000" />
+      <workItem from="1611930212682" duration="1209000" />
     </task>
     <servers />
   </component>

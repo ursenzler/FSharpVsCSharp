@@ -14,8 +14,8 @@
         <Compile Include="DiscriminatedUnions.fs" />
         <Compile Include="SingleCaseDiscriminatedUnions.fs" />
         <Compile Include="Equality.fs" />
-        <Compile Include="Program.fs" />
         <Compile Include="Merging.fs" />
+        <Compile Include="Program.fs" />
     </ItemGroup>
 
     <ItemGroup>

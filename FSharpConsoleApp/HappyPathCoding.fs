@@ -23,6 +23,16 @@ let loadCustomer customerId =
             }
     }
 
+let loadCustomerCaller () =
+    async {
+        let! customerResult = loadCustomer 42
+
+        return
+            match customerResult with
+            | Ok customer -> "we have a customer"
+            | Error error -> "we have no customer"
+    }
+
 let loadData dataId =
     asyncResult {
         return

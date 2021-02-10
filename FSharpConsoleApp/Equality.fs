@@ -1,30 +1,18 @@
 ﻿module FSharpConsoleApp.Equality
 
-type Customer = { Id : int ; Name : string option }
+type Data = { Name : string ; Values : string[] }
 
 let compute () =
-    let listOfCustomers1 =
-        [
-            {
-                Id = 1
-                Name = Some "Charles"
-            }
-            {
-                Id = 2
-                Name = None
-            }
-        ]
+    let a =
+        {
+           Name = "Charles"
+           Values = [| "1" ; "2" |]
+        }
 
-    let listOfCustomers2 =
-        [
-            {
-                Id = 1
-                Name = Some "Charles"
-            }
-            {
-                Id = 2
-                Name = None
-            }
-        ]
+    let b =
+        {
+           Name = "Charles"
+           Values = [| "1" ; "2" |]
+        }
 
-    listOfCustomers1 = listOfCustomers2
+    a = b
