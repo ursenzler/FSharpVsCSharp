@@ -7,12 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f8158edc-a3e8-4610-87fc-2ccc19c2b21f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FSharpVsCSharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSharpVsCSharp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpConsoleApp/Equality.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpConsoleApp/Equality.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpConsoleApp/SingleCaseDiscriminatedUnions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpConsoleApp/SingleCaseDiscriminatedUnions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FSharpConsoleApp/Equality.fs" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpConsoleApp/Equality.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FSharpConsoleApp/FSharpConsoleApp.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpConsoleApp/FSharpConsoleApp.fsproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpConsoleApp/HappyPathCoding.fs" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpConsoleApp/HappyPathCoding.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FSharpConsoleApp/SingleCaseDiscriminatedUnions.fs" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpConsoleApp/SingleCaseDiscriminatedUnions.fs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +35,11 @@
       <option value="$PROJECT_DIR$/CSharpConsoleApp/HappyPathCoding.cs" />
       <option value="$PROJECT_DIR$/FSharpConsoleApp/Expressions.fs" />
       <option value="$PROJECT_DIR$/CSharpConsoleApp/HappyPathCodingBasics.cs" />
-      <option value="$PROJECT_DIR$/FSharpConsoleApp/HappyPathCoding.fs" />
       <option value="$PROJECT_DIR$/CSharpConsoleApp/SingleCaseDiscriminatedUnions.cs" />
       <option value="$PROJECT_DIR$/CSharpConsoleApp/Equality.cs" />
       <option value="$PROJECT_DIR$/FSharpConsoleApp/SingleCaseDiscriminatedUnions.fs" />
       <option value="$PROJECT_DIR$/FSharpConsoleApp/Equality.fs" />
+      <option value="$PROJECT_DIR$/FSharpConsoleApp/HappyPathCoding.fs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mn01Ff0rFbiIIVOZ4qaC1cUmpt" />
@@ -125,6 +120,7 @@
       <workItem from="1611242315745" duration="1391000" />
       <workItem from="1611842986092" duration="874000" />
       <workItem from="1611930212682" duration="1209000" />
+      <workItem from="1612965814522" duration="1043000" />
     </task>
     <servers />
   </component>

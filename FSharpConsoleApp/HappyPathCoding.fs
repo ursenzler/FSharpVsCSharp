@@ -16,11 +16,19 @@ type Data =
 
 let loadCustomer customerId =
     asyncResult {
+        do! customerId = 42
+            |> Result.requireTrue
+                   "customer not found"
         return
             {
                 Customer.Id = customerId
                 Name = Some "Charles"
             }
+    }
+
+let loadCustomer' customerId =
+    asyncResult {
+        return! Error "customer not found"
     }
 
 let loadCustomerCaller () =

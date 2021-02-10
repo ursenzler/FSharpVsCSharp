@@ -11,7 +11,9 @@ namespace CSharpConsoleApp
         private async Task<Customer?> GetCustomer(
             int customerId)
         {
-            return new(customerId, "Charles");
+            return customerId == 42 ?
+                new Customer(customerId, "Charles") :
+                default;
         }
 
         private async Task<Data?> GetData(
