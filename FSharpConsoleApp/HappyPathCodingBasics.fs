@@ -13,30 +13,26 @@ let caller id =
         return r
     }
 
-let optional id =
+let optional id = if id % 2 = 0 then Some id else None
+
+let optionalPlus17 id =
     option {
-        let! r =
-            if id % 2 = 0 then Some id
-            else None
-        return r
+        let! r = optional id
+        return r + 17
     }
 
-let result id =
+let getResult id =
+    if id % 2 = 0 then Ok id
+    else Error "odd number"
+
+let resultPlus17 id =
     result {
-        let! r =
-            if id % 2 = 0 then Ok id
-            else Error "odd number"
-        return r
+        let! r = getResult id
+        return r + 17
     }
 
-let asyncResult id =
-    asyncResult {
-        let! async = asynchronous id
-        let! optional =
-            id
-            |> optional
-            |> Result.requireSome "no value"
-        let! result = result id
-
-        return async + optional + result
-    }
+let callResult () =
+    let r = getResult 42
+    match r with
+    | Ok value -> "value"
+    | Error error -> "error"

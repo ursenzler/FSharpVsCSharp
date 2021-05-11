@@ -31,5 +31,16 @@ namespace CSharpConsoleApp
                     _ => throw new Exception("will never happen, until we add a new variant")
                 };
         }
+
+        public string AsText(ITemperature temperature)
+        {
+            return
+                temperature switch
+                {
+                    Celsius c => $"{c.Value}°C",
+                    Fahrenheit f => $"{f.Value}°F",
+                    _ => throw new Exception("will never happen, until we add a new variant")
+                };
+        }
     }
 }

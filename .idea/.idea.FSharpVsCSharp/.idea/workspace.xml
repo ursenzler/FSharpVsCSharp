@@ -6,8 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8158edc-a3e8-4610-87fc-2ccc19c2b21f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.vs/FSharpVsCSharp/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/FSharpVsCSharp/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FSharpVsCSharp/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FSharpVsCSharp/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSharpVsCSharp/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FSharpVsCSharp/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FSharpVsCSharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSharpVsCSharp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FSharpConsoleApp/HappyPathCoding.fs" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpConsoleApp/HappyPathCoding.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpConsoleApp/DiscriminatedUnions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpConsoleApp/DiscriminatedUnions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSharpConsoleApp/DiscriminatedUnions.fs" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpConsoleApp/DiscriminatedUnions.fs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,24 +27,24 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/CSharpConsoleApp/CSharpConsoleApp.csproj" />
       <option value="$PROJECT_DIR$/CSharpConsoleApp/Records.cs" />
-      <option value="$PROJECT_DIR$/CSharpConsoleApp/DiscriminatedUnions.cs" />
       <option value="$PROJECT_DIR$/FSharpConsoleApp/Program.fs" />
       <option value="$PROJECT_DIR$/CSharpConsoleApp/Program.cs" />
       <option value="$PROJECT_DIR$/FSharpConsoleApp/HappyPathCodingBasics.fs" />
       <option value="$PROJECT_DIR$/CSharpConsoleApp/Pipes.cs" />
       <option value="$PROJECT_DIR$/FSharpConsoleApp/Pipes.fs" />
-      <option value="$PROJECT_DIR$/FSharpConsoleApp/DiscriminatedUnions.fs" />
       <option value="$PROJECT_DIR$/FSharpConsoleApp/Records.fs" />
       <option value="$PROJECT_DIR$/CSharpConsoleApp/Expressions.cs" />
       <option value="$PROJECT_DIR$/CSharpConsoleApp/Merging.cs" />
       <option value="$PROJECT_DIR$/FSharpConsoleApp/Merging.fs" />
-      <option value="$PROJECT_DIR$/CSharpConsoleApp/HappyPathCoding.cs" />
       <option value="$PROJECT_DIR$/FSharpConsoleApp/Expressions.fs" />
       <option value="$PROJECT_DIR$/CSharpConsoleApp/HappyPathCodingBasics.cs" />
       <option value="$PROJECT_DIR$/CSharpConsoleApp/SingleCaseDiscriminatedUnions.cs" />
       <option value="$PROJECT_DIR$/CSharpConsoleApp/Equality.cs" />
       <option value="$PROJECT_DIR$/FSharpConsoleApp/SingleCaseDiscriminatedUnions.fs" />
       <option value="$PROJECT_DIR$/FSharpConsoleApp/Equality.fs" />
+      <option value="$PROJECT_DIR$/CSharpConsoleApp/HappyPathCoding.cs" />
+      <option value="$PROJECT_DIR$/FSharpConsoleApp/DiscriminatedUnions.fs" />
+      <option value="$PROJECT_DIR$/CSharpConsoleApp/DiscriminatedUnions.cs" />
       <option value="$PROJECT_DIR$/FSharpConsoleApp/HappyPathCoding.fs" />
     </changedPaths>
   </component>
@@ -120,7 +126,11 @@
       <workItem from="1611242315745" duration="1391000" />
       <workItem from="1611842986092" duration="874000" />
       <workItem from="1611930212682" duration="1209000" />
-      <workItem from="1612965814522" duration="1043000" />
+      <workItem from="1612965814522" duration="2359000" />
+      <workItem from="1613471140284" duration="595000" />
+      <workItem from="1614678549552" duration="3256000" />
+      <workItem from="1614871129917" duration="94000" />
+      <workItem from="1616140791597" duration="101000" />
     </task>
     <servers />
   </component>

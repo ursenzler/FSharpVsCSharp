@@ -15,6 +15,11 @@ let getMeasure temperature =
     | Celsius _ -> "Celsius"
     | Fahrenheit _ -> "Fahrenheit"
 
+let asText temperature =
+    match temperature with
+    | Celsius c -> $"{c}°C"
+    | Fahrenheit f -> $"{f}°F"
+
 
 let (|IsWarm|IsCold|) temperature =
     match temperature with
